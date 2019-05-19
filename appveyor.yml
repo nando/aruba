@@ -19,7 +19,7 @@ install:
   - bundle install
 
 test_script:
-  - bundle exec rake spec --trace
+  - bundle exec rake test --trace
 
 environment:
   matrix:
